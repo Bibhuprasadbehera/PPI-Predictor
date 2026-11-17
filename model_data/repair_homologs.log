@@ -1,0 +1,300 @@
+repair 245
+Traceback (most recent call last):
+  File "/home/bibhu/miniconda3/lib/python3.13/site-packages/pandas/io/parsers/python_parser.py", line 759, in _header_line
+    line = self._buffered_line()
+  File "/home/bibhu/miniconda3/lib/python3.13/site-packages/pandas/io/parsers/python_parser.py", line 822, in _buffered_line
+    return self._next_line()
+           ~~~~~~~~~~~~~~~^^
+  File "/home/bibhu/miniconda3/lib/python3.13/site-packages/pandas/io/parsers/python_parser.py", line 921, in _next_line
+    orig_line = self._next_iter_line(row_num=self.pos + 1)
+  File "/home/bibhu/miniconda3/lib/python3.13/site-packages/pandas/io/parsers/python_parser.py", line 989, in _next_iter_line
+    line = next(self.data)
+StopIteration
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/bibhu/Documents/DeepInteract/DEEPINTERACT/ppi/repair_homolog_motifs.py", line 142, in <module>
+    main()
+    ~~~~^^
+  File "/home/bibhu/Documents/DeepInteract/DEEPINTERACT/ppi/repair_homolog_motifs.py", line 130, in main
+    found[cid] = phmmer_hseq(cid, index)
+                 ~~~~~~~~~~~^^^^^^^^^^^^
+  File "/home/bibhu/Documents/DeepInteract/DEEPINTERACT/ppi/repair_homolog_motifs.py", line 45, in phmmer_hseq
+    hits = pd.read_csv(tbl, comment="#", sep=r"\s+", header=None, usecols=[0], engine="python")
+  File "/home/bibhu/miniconda3/lib/python3.13/site-packages/pandas/io/parsers/readers.py", line 873, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "/home/bibhu/miniconda3/lib/python3.13/site-packages/pandas/io/parsers/readers.py", line 300, in _read
+    parser = TextFileReader(filepath_or_buffer, **kwds)
+  File "/home/bibhu/miniconda3/lib/python3.13/site-packages/pandas/io/parsers/readers.py", line 1645, in __init__
+    self._engine = self._make_engine(f, self.engine)
+                   ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^
+  File "/home/bibhu/miniconda3/lib/python3.13/site-packages/pandas/io/parsers/readers.py", line 1922, in _make_engine
+    return mapping[engine](f, **self.options)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^
+  File "/home/bibhu/miniconda3/lib/python3.13/site-packages/pandas/io/parsers/python_parser.py", line 156, in __init__
+    ) = self._infer_columns()
+        ~~~~~~~~~~~~~~~~~~~^^
+  File "/home/bibhu/miniconda3/lib/python3.13/site-packages/pandas/io/parsers/python_parser.py", line 731, in _infer_columns
+    ncols = len(self._header_line)
+                ^^^^^^^^^^^^^^^^^
+  File "pandas/_libs/properties.pyx", line 36, in pandas._libs.properties.CachedProperty.__get__
+  File "/home/bibhu/miniconda3/lib/python3.13/site-packages/pandas/io/parsers/python_parser.py", line 762, in _header_line
+    raise EmptyDataError("No columns to parse from file") from err
+pandas.errors.EmptyDataError: No columns to parse from file
+repair 245
+phmmer 25/245
+phmmer 50/245
+phmmer 75/245
+phmmer 100/245
+phmmer 125/245
+phmmer 150/245
+phmmer 175/245
+phmmer 200/245
+phmmer 225/245
+phmmer done
+1/245 7W54_A no-homolog n=1
+2/245 6LYV_B no-homolog n=1
+3/245 3TWI_A no-homolog n=1
+4/245 2XKO_C no-homolog n=1
+5/245 6UPU_E no-homolog n=1
+6/245 5JBY_B no-homolog n=1
+7/245 8B2N_D no-homolog n=1
+8/245 1Z7Q_k no-homolog n=1
+9/245 2XG8_F no-homolog n=1
+10/245 1Z7Q_g no-homolog n=1
+11/245 4HEA_X no-homolog n=1
+12/245 7DN9_G no-homolog n=1
+13/245 7BWK_J no-homolog n=1
+14/245 2PMS_D no-homolog n=1
+15/245 7PI6_A no-homolog n=1
+16/245 2NZ1_A no-homolog n=1
+17/245 3WOF_X no-homolog n=1
+18/245 2ICW_H no-homolog n=1
+19/245 8DOV_K no-homolog n=1
+20/245 1M57_J rebuilt n=2
+21/245 3LKU_B rebuilt n=2
+22/245 4I1O_H no-homolog n=1
+23/245 7DKH_G rebuilt n=2
+24/245 2FUG_7 rebuilt n=2
+25/245 5CZO_C rebuilt n=2
+26/245 6JKY_A no-homolog n=1
+27/245 2INN_F rebuilt n=2
+28/245 7OCX_B rebuilt n=2
+29/245 1PTO_L rebuilt n=2
+30/245 2J9U_D rebuilt n=2
+31/245 5T47_D no-homolog n=1
+32/245 2YEV_F no-homolog n=1
+33/245 5CD4_J rebuilt n=2
+34/245 5XNB_L rebuilt n=2
+35/245 2GID_J no-homolog n=1
+36/245 9SDS_F no-homolog n=1
+37/245 5JEN_C rebuilt n=2
+38/245 1F51_A rebuilt n=2
+39/245 6Q8W_W no-homolog n=1
+40/245 4IRU_E no-homolog n=1
+41/245 3PWQ_K rebuilt n=2
+42/245 3PWQ_D rebuilt n=2
+43/245 5W94_C rebuilt n=2
+44/245 4C2M_4 rebuilt n=2
+45/245 4WJG_O no-homolog n=1
+46/245 4FJC_H rebuilt n=2
+47/245 3TWI_C no-homolog n=1
+48/245 4U7U_V rebuilt n=2
+49/245 3WOF_R no-homolog n=1
+50/245 5MVW_C rebuilt n=2
+51/245 8BB1_H rebuilt n=2
+52/245 9IV7_A no-homolog n=1
+53/245 3ZDM_A rebuilt n=2
+54/245 8PEY_i rebuilt n=2
+55/245 2PMS_C no-homolog n=1
+56/245 8XCK_Z rebuilt n=2
+57/245 7XML_C rebuilt n=2
+58/245 7DKH_L rebuilt n=2
+59/245 8TCB_D no-homolog n=1
+60/245 8ZEP_E rebuilt n=2
+61/245 1YAR_S no-homolog n=1
+62/245 5MW9_E rebuilt n=2
+63/245 4U7U_H rebuilt n=2
+64/245 4C2M_3 rebuilt n=2
+65/245 4U7U_A rebuilt n=2
+66/245 7R0W_X rebuilt n=2
+67/245 6JHO_C no-homolog n=1
+68/245 5JNB_E no-homolog n=1
+69/245 7VRC_A rebuilt n=2
+70/245 5MW0_B rebuilt n=2
+71/245 4PDC_E no-homolog n=1
+72/245 5IRX_E rebuilt n=2
+73/245 6V3P_D rebuilt n=2
+74/245 6JHO_D no-homolog n=1
+75/245 2ICW_G no-homolog n=1
+76/245 4BH6_I rebuilt n=2
+77/245 8YXV_J rebuilt n=2
+78/245 6ATG_C no-homolog n=1
+79/245 5JNB_F no-homolog n=1
+80/245 4U7U_C rebuilt n=2
+81/245 8T1X_X rebuilt n=2
+82/245 8CMR_A no-homolog n=1
+83/245 2GID_G no-homolog n=1
+84/245 7DN8_A no-homolog n=1
+85/245 5JGE_C rebuilt n=2
+86/245 6JHO_A no-homolog n=1
+87/245 8PFC_O no-homolog n=1
+88/245 6GH8_B no-homolog n=1
+89/245 4I99_C no-homolog n=1
+90/245 1E0F_K no-homolog n=1
+91/245 7EQC_F no-homolog n=1
+92/245 7KFK_E no-homolog n=1
+93/245 6GX7_G no-homolog n=1
+94/245 6WLZ_Y no-homolog n=1
+95/245 3VZA_F rebuilt n=2
+96/245 5OMB_A rebuilt n=2
+97/245 7R0W_V rebuilt n=2
+98/245 8CMR_C no-homolog n=1
+99/245 1E0F_I no-homolog n=1
+100/245 6O4M_C no-homolog n=1
+101/245 5CFF_C no-homolog n=1
+102/245 8TCB_C no-homolog n=1
+103/245 3ZHE_A no-homolog n=1
+104/245 7BU0_B no-homolog n=1
+105/245 5CFF_D no-homolog n=1
+106/245 5A7D_M no-homolog n=1
+107/245 3V3K_H rebuilt n=2
+108/245 7DKH_H rebuilt n=2
+109/245 9RLT_4 rebuilt n=2
+110/245 5T16_E rebuilt n=2
+111/245 3ZHE_C no-homolog n=1
+112/245 1Z7Q_i no-homolog n=1
+113/245 2J04_A rebuilt n=2
+114/245 3K1I_C no-homolog n=1
+115/245 4U7U_W rebuilt n=2
+116/245 6X1G_C no-homolog n=1
+117/245 5JBY_D no-homolog n=1
+118/245 1M56_J rebuilt n=2
+119/245 8AFE_E no-homolog n=1
+120/245 5CFF_B no-homolog n=1
+121/245 5LM7_F rebuilt n=2
+122/245 3HI2_D rebuilt n=2
+123/245 3A58_C rebuilt n=2
+124/245 6Q8W_X no-homolog n=1
+125/245 9EKD_B rebuilt n=2
+126/245 7EQC_I no-homolog n=1
+127/245 3IAS_Q rebuilt n=2
+128/245 5NBQ_G no-homolog n=1
+129/245 2NYZ_A no-homolog n=1
+130/245 2XKO_D no-homolog n=1
+131/245 9IV3_H no-homolog n=1
+132/245 7BWK_E no-homolog n=1
+133/245 1Z7Q_e no-homolog n=1
+134/245 6GX7_H no-homolog n=1
+135/245 4TPS_C rebuilt n=2
+136/245 7F9L_B no-homolog n=1
+137/245 5MVW_B rebuilt n=2
+138/245 4QYZ_H rebuilt n=2
+139/245 2PT7_G no-homolog n=1
+140/245 5B2G_H rebuilt n=2
+141/245 8ZEN_E rebuilt n=2
+142/245 5EE4_A no-homolog n=1
+143/245 6WM2_Y no-homolog n=1
+144/245 2WUS_S rebuilt n=2
+145/245 5MW9_B rebuilt n=2
+146/245 2FUG_Z rebuilt n=2
+147/245 3IAS_Z rebuilt n=2
+148/245 6Y11_W no-homolog n=1
+149/245 6X1G_A no-homolog n=1
+150/245 6UPU_A no-homolog n=1
+151/245 6GH8_D no-homolog n=1
+152/245 5JBY_F no-homolog n=1
+153/245 1YA7_P no-homolog n=1
+154/245 8TPJ_Q rebuilt n=3
+155/245 2Z2Y_B rebuilt n=2
+156/245 6JKY_D no-homolog n=1
+157/245 8J48_C no-homolog n=1
+158/245 1R5I_H no-homolog n=1
+159/245 5MW0_C rebuilt n=2
+160/245 4WJG_E no-homolog n=1
+161/245 7EQC_D no-homolog n=1
+162/245 4LYL_J rebuilt n=2
+163/245 8B2N_B no-homolog n=1
+164/245 8JTL_C no-homolog n=1
+165/245 2WP0_A no-homolog n=1
+166/245 4U7U_B rebuilt n=2
+167/245 4BJ5_E rebuilt n=2
+168/245 4DI3_B rebuilt n=2
+169/245 3IAM_H rebuilt n=2
+170/245 7W54_B no-homolog n=1
+171/245 2FUG_Q rebuilt n=2
+172/245 4U7U_M rebuilt n=2
+173/245 5GOD_D no-homolog n=1
+174/245 4WA6_E rebuilt n=2
+175/245 6Q8W_I rebuilt n=2
+176/245 6Y11_X no-homolog n=1
+177/245 4WJG_J no-homolog n=1
+178/245 5MVW_D rebuilt n=2
+179/245 7EQC_C no-homolog n=1
+180/245 6UPU_I no-homolog n=1
+181/245 8PEY_b rebuilt n=2
+182/245 6WM2_X no-homolog n=1
+183/245 2XG8_E no-homolog n=1
+184/245 6B4E_D rebuilt n=2
+185/245 2YEV_C no-homolog n=1
+186/245 1W1W_E rebuilt n=2
+187/245 4KDI_C rebuilt n=2
+188/245 9G7G_S no-homolog n=1
+189/245 5EE4_B no-homolog n=1
+190/245 5MW0_A rebuilt n=2
+191/245 5MW0_D rebuilt n=2
+192/245 5XNB_H rebuilt n=2
+193/245 7KFK_C no-homolog n=1
+194/245 9G7G_E no-homolog n=1
+195/245 2INP_E rebuilt n=2
+196/245 8ZHS_C no-homolog n=1
+197/245 5T47_B no-homolog n=1
+198/245 5J43_B rebuilt n=2
+199/245 6I1P_I rebuilt n=2
+200/245 8PEY_j rebuilt n=2
+201/245 6WM3_Y no-homolog n=1
+202/245 5XNB_G rebuilt n=2
+203/245 5M4Y_B rebuilt n=2
+204/245 6I1P_W no-homolog n=1
+205/245 9F2D_C no-homolog n=1
+206/245 6MCP_A no-homolog n=1
+207/245 4HEA_W no-homolog n=1
+208/245 5MVW_A rebuilt n=2
+209/245 6GBH_A no-homolog n=1
+210/245 6O4M_D no-homolog n=1
+211/245 5B2G_B rebuilt n=2
+212/245 4ZLT_A no-homolog n=1
+213/245 5DLJ_F rebuilt n=2
+214/245 4I99_D no-homolog n=1
+215/245 3FWC_J rebuilt n=2
+216/245 2PT7_H no-homolog n=1
+217/245 3ONG_A rebuilt n=2
+218/245 6WLZ_Z no-homolog n=1
+219/245 2Z5C_D rebuilt n=2
+220/245 5CD4_Q rebuilt n=2
+221/245 5CFF_A no-homolog n=1
+222/245 3DSN_F rebuilt n=2
+223/245 5JGE_F rebuilt n=2
+224/245 8JTL_D no-homolog n=1
+225/245 1YA7_T no-homolog n=1
+226/245 6K4R_A rebuilt n=2
+227/245 5WXM_V rebuilt n=2
+228/245 7F9M_B rebuilt n=18
+229/245 6W9R_A no-homolog n=1
+230/245 7BWK_F rebuilt n=2
+231/245 4QYZ_C rebuilt n=2
+232/245 1PRT_L rebuilt n=2
+233/245 8AFE_A rebuilt n=2
+234/245 4A8J_C rebuilt n=2
+235/245 5MSM_B rebuilt n=2
+236/245 4J7B_C rebuilt n=2
+237/245 5MW9_G rebuilt n=2
+238/245 7XAD_I rebuilt n=2
+239/245 4HEA_I rebuilt n=2
+240/245 5I4R_B rebuilt n=2
+241/245 6BZF_C rebuilt n=2
+242/245 5MW9_H rebuilt n=2
+243/245 2F66_F rebuilt n=2
+244/245 3TIX_B rebuilt n=2
+245/245 6II6_B rebuilt n=2

@@ -1,0 +1,44 @@
+Traceback (most recent call last):
+  File "/home/bibhu/Documents/DeepInteract/DEEPINTERACT/ppi/run_motifs.py", line 226, in <module>
+    main()
+    ~~~~^^
+  File "/home/bibhu/Documents/DeepInteract/DEEPINTERACT/ppi/run_motifs.py", line 187, in main
+    (large if nseq(cid) > 250 else small).append(cid)
+              ~~~~^^^^^
+  File "/home/bibhu/Documents/DeepInteract/DEEPINTERACT/ppi/run_motifs.py", line 172, in nseq
+    with path.open() as handle:
+         ~~~~~~~~~^^
+  File "/home/bibhu/miniconda3/lib/python3.13/pathlib/_local.py", line 537, in open
+    return io.open(self, mode, buffering, encoding, errors, newline)
+           ~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/home/bibhu/Documents/DeepInteract/DEEPINTERACT/model_data/hseq/1E0F_K.fasta'
+50/259
+100/259
+150/259
+200/259
+250/259
+DONE 259
+500
+1000
+1500
+2000
+2500
+3000
+3500
+4000
+4500
+5000
+5500
+6000
+6500
+7000
+7500
+8000
+8500
+9000
+9500
+10000
+10500
+11000
+11500
+DONE 11944

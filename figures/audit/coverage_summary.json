@@ -1,0 +1,13 @@
+{
+  "run_id": "2026-11-17T13-28-37Z",
+  "pssm_max": 21296.0,
+  "neglog_p_max": 68.4375,
+  "homolog_n": 11944,
+  "homolog_min": 1,
+  "homolog_median": 75.5,
+  "homolog_p90": 874.4000000000015,
+  "homolog_max": 9525,
+  "fimo_frac_median": 0.32458436667585194,
+  "pssm_frac_median": 0.3469387755102041,
+  "fimo_frac_zero": 152
+}

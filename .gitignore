@@ -1,0 +1,15 @@
+__pycache__/
+*.pyc
+ppi/bin/
+model_data/embeddings/
+model_data/hseq/
+model_data/meme/
+model_data/fimo/
+model_data/chains/
+model_data/conservation/
+model_data/motifs/
+model_data/structures/
+model_data/dssp/
+model_data/dssp_raw/
+model_data/contacts/
+model_data/*.pt

@@ -1,0 +1,121 @@
+100/11944 {'ok': 97, 'onehot': 3}
+200/11944 {'ok': 197, 'onehot': 3}
+300/11944 {'ok': 297, 'onehot': 3}
+400/11944 {'ok': 397, 'onehot': 3}
+500/11944 {'ok': 497, 'onehot': 3}
+600/11944 {'ok': 596, 'onehot': 4}
+700/11944 {'ok': 693, 'onehot': 6, 'onehot-fallback': 1}
+800/11944 {'ok': 793, 'onehot': 6, 'onehot-fallback': 1}
+900/11944 {'ok': 893, 'onehot': 6, 'onehot-fallback': 1}
+1000/11944 {'ok': 986, 'onehot': 13, 'onehot-fallback': 1}
+1100/11944 {'ok': 1086, 'onehot': 13, 'onehot-fallback': 1}
+1200/11944 {'ok': 1186, 'onehot': 13, 'onehot-fallback': 1}
+1300/11944 {'ok': 1286, 'onehot': 13, 'onehot-fallback': 1}
+1400/11944 {'ok': 1381, 'onehot': 18, 'onehot-fallback': 1}
+1500/11944 {'ok': 1477, 'onehot': 22, 'onehot-fallback': 1}
+1600/11944 {'ok': 1575, 'onehot': 24, 'onehot-fallback': 1}
+1700/11944 {'ok': 1673, 'onehot': 26, 'onehot-fallback': 1}
+1800/11944 {'ok': 1768, 'onehot': 31, 'onehot-fallback': 1}
+1900/11944 {'ok': 1864, 'onehot': 35, 'onehot-fallback': 1}
+2000/11944 {'ok': 1960, 'onehot': 39, 'onehot-fallback': 1}
+2100/11944 {'ok': 2056, 'onehot': 42, 'onehot-fallback': 2}
+2200/11944 {'ok': 2156, 'onehot': 42, 'onehot-fallback': 2}
+2300/11944 {'ok': 2256, 'onehot': 42, 'onehot-fallback': 2}
+2400/11944 {'ok': 2356, 'onehot': 42, 'onehot-fallback': 2}
+2500/11944 {'ok': 2456, 'onehot': 42, 'onehot-fallback': 2}
+2600/11944 {'ok': 2556, 'onehot': 42, 'onehot-fallback': 2}
+2700/11944 {'ok': 2653, 'onehot': 43, 'onehot-fallback': 4}
+2800/11944 {'ok': 2751, 'onehot': 45, 'onehot-fallback': 4}
+2900/11944 {'ok': 2849, 'onehot': 47, 'onehot-fallback': 4}
+3000/11944 {'ok': 2949, 'onehot': 47, 'onehot-fallback': 4}
+3100/11944 {'ok': 3049, 'onehot': 47, 'onehot-fallback': 4}
+3200/11944 {'ok': 3148, 'onehot': 48, 'onehot-fallback': 4}
+3300/11944 {'ok': 3247, 'onehot': 49, 'onehot-fallback': 4}
+3400/11944 {'ok': 3346, 'onehot': 49, 'onehot-fallback': 4, 'skip': 1}
+3500/11944 {'ok': 3443, 'onehot': 52, 'onehot-fallback': 4, 'skip': 1}
+3600/11944 {'ok': 3539, 'onehot': 56, 'onehot-fallback': 4, 'skip': 1}
+3700/11944 {'ok': 3638, 'onehot': 57, 'onehot-fallback': 4, 'skip': 1}
+3800/11944 {'ok': 3736, 'onehot': 59, 'onehot-fallback': 4, 'skip': 1}
+3900/11944 {'ok': 3835, 'onehot': 60, 'onehot-fallback': 4, 'skip': 1}
+4000/11944 {'ok': 3933, 'onehot': 62, 'onehot-fallback': 4, 'skip': 1}
+4100/11944 {'ok': 4030, 'onehot': 65, 'onehot-fallback': 4, 'skip': 1}
+4200/11944 {'ok': 4126, 'onehot': 69, 'onehot-fallback': 4, 'skip': 1}
+4300/11944 {'ok': 4225, 'onehot': 70, 'onehot-fallback': 4, 'skip': 1}
+4400/11944 {'ok': 4325, 'onehot': 70, 'onehot-fallback': 4, 'skip': 1}
+4500/11944 {'ok': 4425, 'onehot': 70, 'onehot-fallback': 4, 'skip': 1}
+4600/11944 {'ok': 4524, 'onehot': 71, 'onehot-fallback': 4, 'skip': 1}
+4700/11944 {'ok': 4624, 'onehot': 71, 'onehot-fallback': 4, 'skip': 1}
+4800/11944 {'ok': 4722, 'onehot': 73, 'onehot-fallback': 4, 'skip': 1}
+4900/11944 {'ok': 4819, 'onehot': 76, 'onehot-fallback': 4, 'skip': 1}
+5000/11944 {'ok': 4918, 'onehot': 77, 'onehot-fallback': 4, 'skip': 1}
+5100/11944 {'ok': 5016, 'onehot': 79, 'onehot-fallback': 4, 'skip': 1}
+5200/11944 {'ok': 5111, 'onehot': 84, 'onehot-fallback': 4, 'skip': 1}
+5300/11944 {'ok': 5209, 'onehot': 86, 'onehot-fallback': 4, 'skip': 1}
+5400/11944 {'ok': 5307, 'onehot': 88, 'onehot-fallback': 4, 'skip': 1}
+5500/11944 {'ok': 5406, 'onehot': 89, 'onehot-fallback': 4, 'skip': 1}
+5600/11944 {'ok': 5503, 'onehot': 92, 'onehot-fallback': 4, 'skip': 1}
+5700/11944 {'ok': 5601, 'onehot': 94, 'onehot-fallback': 4, 'skip': 1}
+5800/11944 {'ok': 5701, 'onehot': 94, 'onehot-fallback': 4, 'skip': 1}
+5900/11944 {'ok': 5800, 'onehot': 95, 'onehot-fallback': 4, 'skip': 1}
+6000/11944 {'ok': 5898, 'onehot': 97, 'onehot-fallback': 4, 'skip': 1}
+6100/11944 {'ok': 5998, 'onehot': 97, 'onehot-fallback': 4, 'skip': 1}
+6200/11944 {'ok': 6098, 'onehot': 97, 'onehot-fallback': 4, 'skip': 1}
+6300/11944 {'ok': 6196, 'onehot': 99, 'onehot-fallback': 4, 'skip': 1}
+6400/11944 {'ok': 6296, 'onehot': 99, 'onehot-fallback': 4, 'skip': 1}
+6500/11944 {'ok': 6395, 'onehot': 100, 'onehot-fallback': 4, 'skip': 1}
+6600/11944 {'ok': 6492, 'onehot': 103, 'onehot-fallback': 4, 'skip': 1}
+6700/11944 {'ok': 6589, 'onehot': 106, 'onehot-fallback': 4, 'skip': 1}
+6800/11944 {'ok': 6687, 'onehot': 108, 'onehot-fallback': 4, 'skip': 1}
+6900/11944 {'ok': 6780, 'onehot': 114, 'onehot-fallback': 5, 'skip': 1}
+7000/11944 {'ok': 6876, 'onehot': 118, 'onehot-fallback': 5, 'skip': 1}
+7100/11944 {'ok': 6974, 'onehot': 120, 'onehot-fallback': 5, 'skip': 1}
+7200/11944 {'ok': 7071, 'onehot': 122, 'onehot-fallback': 6, 'skip': 1}
+7300/11944 {'ok': 7168, 'onehot': 125, 'onehot-fallback': 6, 'skip': 1}
+7400/11944 {'ok': 7264, 'onehot': 129, 'onehot-fallback': 6, 'skip': 1}
+7500/11944 {'ok': 7364, 'onehot': 129, 'onehot-fallback': 6, 'skip': 1}
+7600/11944 {'ok': 7464, 'onehot': 129, 'onehot-fallback': 6, 'skip': 1}
+7700/11944 {'ok': 7556, 'onehot': 137, 'onehot-fallback': 6, 'skip': 1}
+7800/11944 {'ok': 7652, 'onehot': 141, 'onehot-fallback': 6, 'skip': 1}
+7900/11944 {'ok': 7749, 'onehot': 144, 'onehot-fallback': 6, 'skip': 1}
+8000/11944 {'ok': 7843, 'onehot': 150, 'onehot-fallback': 6, 'skip': 1}
+8100/11944 {'ok': 7943, 'onehot': 150, 'onehot-fallback': 6, 'skip': 1}
+8200/11944 {'ok': 8041, 'onehot': 152, 'onehot-fallback': 6, 'skip': 1}
+8300/11944 {'ok': 8134, 'onehot': 159, 'onehot-fallback': 6, 'skip': 1}
+8400/11944 {'ok': 8227, 'onehot': 166, 'onehot-fallback': 6, 'skip': 1}
+8500/11944 {'ok': 8327, 'onehot': 166, 'onehot-fallback': 6, 'skip': 1}
+8600/11944 {'ok': 8424, 'onehot': 169, 'onehot-fallback': 6, 'skip': 1}
+8700/11944 {'ok': 8524, 'onehot': 169, 'onehot-fallback': 6, 'skip': 1}
+8800/11944 {'ok': 8622, 'onehot': 171, 'onehot-fallback': 6, 'skip': 1}
+8900/11944 {'ok': 8722, 'onehot': 171, 'onehot-fallback': 6, 'skip': 1}
+9000/11944 {'ok': 8819, 'onehot': 174, 'onehot-fallback': 6, 'skip': 1}
+9100/11944 {'ok': 8918, 'onehot': 175, 'onehot-fallback': 6, 'skip': 1}
+9200/11944 {'ok': 9018, 'onehot': 175, 'onehot-fallback': 6, 'skip': 1}
+9300/11944 {'ok': 9114, 'onehot': 178, 'onehot-fallback': 6, 'skip': 2}
+9400/11944 {'ok': 9214, 'onehot': 178, 'onehot-fallback': 6, 'skip': 2}
+9500/11944 {'ok': 9312, 'onehot': 180, 'onehot-fallback': 6, 'skip': 2}
+9600/11944 {'ok': 9411, 'onehot': 181, 'onehot-fallback': 6, 'skip': 2}
+9700/11944 {'ok': 9511, 'onehot': 181, 'onehot-fallback': 6, 'skip': 2}
+9800/11944 {'ok': 9611, 'onehot': 181, 'onehot-fallback': 6, 'skip': 2}
+9900/11944 {'ok': 9710, 'onehot': 182, 'onehot-fallback': 6, 'skip': 2}
+10000/11944 {'ok': 9808, 'onehot': 184, 'onehot-fallback': 6, 'skip': 2}
+10100/11944 {'ok': 9904, 'onehot': 188, 'onehot-fallback': 6, 'skip': 2}
+10200/11944 {'ok': 10004, 'onehot': 188, 'onehot-fallback': 6, 'skip': 2}
+10300/11944 {'ok': 10104, 'onehot': 188, 'onehot-fallback': 6, 'skip': 2}
+10400/11944 {'ok': 10202, 'onehot': 190, 'onehot-fallback': 6, 'skip': 2}
+10500/11944 {'ok': 10302, 'onehot': 190, 'onehot-fallback': 6, 'skip': 2}
+10600/11944 {'ok': 10402, 'onehot': 190, 'onehot-fallback': 6, 'skip': 2}
+10700/11944 {'ok': 10502, 'onehot': 190, 'onehot-fallback': 6, 'skip': 2}
+10800/11944 {'ok': 10602, 'onehot': 190, 'onehot-fallback': 6, 'skip': 2}
+10900/11944 {'ok': 10699, 'onehot': 193, 'onehot-fallback': 6, 'skip': 2}
+11000/11944 {'ok': 10799, 'onehot': 193, 'onehot-fallback': 6, 'skip': 2}
+11100/11944 {'ok': 10899, 'onehot': 193, 'onehot-fallback': 6, 'skip': 2}
+11200/11944 {'ok': 10996, 'onehot': 196, 'onehot-fallback': 6, 'skip': 2}
+11300/11944 {'ok': 11096, 'onehot': 196, 'onehot-fallback': 6, 'skip': 2}
+11400/11944 {'ok': 11194, 'onehot': 198, 'onehot-fallback': 6, 'skip': 2}
+11500/11944 {'ok': 11294, 'onehot': 198, 'onehot-fallback': 6, 'skip': 2}
+11600/11944 {'ok': 11394, 'onehot': 198, 'onehot-fallback': 6, 'skip': 2}
+11700/11944 {'ok': 11494, 'onehot': 198, 'onehot-fallback': 6, 'skip': 2}
+11800/11944 {'ok': 11592, 'onehot': 200, 'onehot-fallback': 6, 'skip': 2}
+11900/11944 {'ok': 11692, 'onehot': 200, 'onehot-fallback': 6, 'skip': 2}
+11944/11944 {'ok': 11736, 'onehot': 200, 'onehot-fallback': 6, 'skip': 2}
+FINAL {'ok': 11736, 'onehot': 200, 'onehot-fallback': 6, 'skip': 2}

@@ -1,0 +1,38 @@
+train 6181 val 1324 pos_weight 2.144
+epoch 1 train_loss 1.2608 val_loss 1.0338
+epoch 1 train_loss 1.2608 val_loss 1.0338
+
+epoch 2 train_loss 0.9913 val_loss 1.0242
+epoch 2 train_loss 0.9913 val_loss 1.0242
+
+epoch 3 train_loss 0.9695 val_loss 0.9937
+epoch 3 train_loss 0.9695 val_loss 0.9937
+
+epoch 4 train_loss 0.9615 val_loss 1.0360
+epoch 4 train_loss 0.9615 val_loss 1.0360
+
+epoch 5 train_loss 0.9558 val_loss 1.1576
+epoch 5 train_loss 0.9558 val_loss 1.1576
+
+saved motif_linker.pt
+/home/bibhu/miniconda3/envs/CryoAtom2/lib/python3.9/site-packages/sklearn/utils/fixes.py:28: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  from pkg_resources import parse_version  # type: ignore
+val n=1324 pos=575 AUROC 0.5292 AUPRC 0.4601
+test n=1325 pos=612 AUROC 0.5104 AUPRC 0.4786
+/home/bibhu/miniconda3/envs/CryoAtom2/lib/python3.9/site-packages/sklearn/utils/fixes.py:28: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  from pkg_resources import parse_version  # type: ignore
+train 6181 val 1324 pos_weight 2.144
+epoch 1 train_loss 1.3099 val_auprc 0.4278
+epoch 1 train_loss 1.3099 val_auprc 0.4278
+
+epoch 2 train_loss 0.9785 val_auprc 0.4420
+epoch 2 train_loss 0.9785 val_auprc 0.4420
+
+epoch 3 train_loss 0.9777 val_auprc 0.4276
+epoch 3 train_loss 0.9777 val_auprc 0.4276
+
+epoch 4 train_loss 0.9642 val_auprc 0.4412
+epoch 4 train_loss 0.9642 val_auprc 0.4412
+
+stop at epoch 4 best 2 val_auprc 0.4420
+saved motif_linker_best.pt

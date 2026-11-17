@@ -1,0 +1,9 @@
+epoch 1 train_loss 0.9522 val_auroc 0.5180 val_auprc 0.4504
+epoch 2 train_loss 0.9476 val_auroc 0.5192 val_auprc 0.4503
+epoch 3 train_loss 0.9474 val_auroc 0.5179 val_auprc 0.4495
+stop best_val_auprc 0.4504
+test AUROC 0.5412 AUPRC 0.5015
+495
+
+test AUROC 0.5412 AUPRC 0.5015
+

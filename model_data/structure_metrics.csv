@@ -1,0 +1,8 @@
+item,count,total
+chains_written,11645.0,11944
+chains_failed,299.0,11944
+pairs_compared,8450.0,8830
+pairs_count_equal,8407.0,8450
+pairs_count_differ,43.0,8450
+pairs_label_would_flip,1.0,8450
+median_abs_delta,0.0,8450

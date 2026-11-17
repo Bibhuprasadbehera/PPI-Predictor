@@ -1,0 +1,21 @@
+INFO  run started  run_id=2026-11-17T13-28-37Z pipeline=coverage_audit utc_start=2026-11-17T13:28:37.163802+00:00 pos=/home/bibhu/Documents/DeepInteract/DEEPINTERACT/Positive_data/files/msa_with_contacts_filtered_pfam_combined_reshaped.tsv neg=/home/bibhu/Documents/DeepInteract/DEEPINTERACT/Negative_data/files/negative_dataset.tsv
+INFO  table counted  pairs=8830 chains=11944
+INFO  feature scan  done=2000 chains=11944
+INFO  feature scan  done=4000 chains=11944
+INFO  feature scan  done=6000 chains=11944
+INFO  feature scan  done=8000 chains=11944
+INFO  feature scan  done=10000 chains=11944
+INFO  feature scan  done=11944 chains=11944
+INFO  letter check  chain=6O4M_C ok_so_far=1 tested=12
+INFO  letter check  chain=8CE1_d ok_so_far=2 tested=12
+INFO  letter check  chain=2Z3R_D ok_so_far=3 tested=12
+INFO  letter check  chain=1IB1_H ok_so_far=4 tested=12
+INFO  letter check  chain=4DHX_B ok_so_far=5 tested=12
+INFO  letter check  chain=1UEA_D ok_so_far=6 tested=12
+INFO  letter check  chain=2O26_U ok_so_far=7 tested=12
+INFO  letter check  chain=1FQV_A ok_so_far=8 tested=12
+INFO  letter check  chain=5E9D_J ok_so_far=9 tested=12
+INFO  letter check  chain=5O6T_C ok_so_far=10 tested=12
+INFO  letter check  chain=2JKI_C ok_so_far=11 tested=12
+INFO  letter check  chain=2A1D_F ok_so_far=12 tested=12
+INFO  run finished  run_id=2026-11-17T13-28-37Z status=ok duration_s=20.4 metrics=/home/bibhu/Documents/DeepInteract/PPI-Predictor/figures/audit/coverage_metrics.csv

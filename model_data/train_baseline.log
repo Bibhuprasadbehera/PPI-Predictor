@@ -1,0 +1,24 @@
+train 6181 val 1324 pos_weight 2.144
+epoch 1 train_loss 0.9615 val_loss 1.0383
+epoch 1 train_loss 0.9615 val_loss 1.0383
+
+epoch 2 train_loss 0.9608 val_loss 1.0318
+epoch 2 train_loss 0.9608 val_loss 1.0318
+
+train 6181 val 1324 pos_weight 2.144
+epoch 1 train_loss 1.3068 val_loss 1.0370
+epoch 1 train_loss 1.3068 val_loss 1.0370
+
+epoch 2 train_loss 0.9820 val_loss 1.0375
+epoch 2 train_loss 0.9820 val_loss 1.0375
+
+epoch 3 train_loss 0.9717 val_loss 1.0653
+epoch 3 train_loss 0.9717 val_loss 1.0653
+
+epoch 4 train_loss 0.9646 val_loss 1.0506
+epoch 4 train_loss 0.9646 val_loss 1.0506
+
+epoch 5 train_loss 0.9581 val_loss 1.0389
+epoch 5 train_loss 0.9581 val_loss 1.0389
+
+saved baseline_linker.pt

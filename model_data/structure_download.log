@@ -1,0 +1,31 @@
+INFO  run started run_id=2026-11-17T17-27-45Z pipeline=structure_download utc_start=2026-11-17T17:27:45Z script_sha=d913e96a6bf0 pairs=8830 pdb_ids=3151 local_pdb=275 to_download=2876 workers=8 timeout_s=180
+INFO  download progress done=100 total=2876 downloaded=100 present=0 failed=0
+INFO  download progress done=200 total=2876 downloaded=200 present=0 failed=0
+INFO  download progress done=300 total=2876 downloaded=300 present=0 failed=0
+INFO  download progress done=400 total=2876 downloaded=400 present=0 failed=0
+INFO  download progress done=500 total=2876 downloaded=500 present=0 failed=0
+INFO  download progress done=600 total=2876 downloaded=600 present=0 failed=0
+INFO  download progress done=700 total=2876 downloaded=700 present=0 failed=0
+INFO  download progress done=800 total=2876 downloaded=800 present=0 failed=0
+INFO  download progress done=900 total=2876 downloaded=900 present=0 failed=0
+INFO  download progress done=1000 total=2876 downloaded=1000 present=0 failed=0
+INFO  download progress done=1100 total=2876 downloaded=1100 present=0 failed=0
+INFO  download progress done=1200 total=2876 downloaded=1200 present=0 failed=0
+INFO  download progress done=1300 total=2876 downloaded=1300 present=0 failed=0
+INFO  download progress done=1400 total=2876 downloaded=1400 present=0 failed=0
+INFO  download progress done=1500 total=2876 downloaded=1500 present=0 failed=0
+INFO  download progress done=1600 total=2876 downloaded=1600 present=0 failed=0
+INFO  download progress done=1700 total=2876 downloaded=1700 present=0 failed=0
+INFO  download progress done=1800 total=2876 downloaded=1800 present=0 failed=0
+INFO  download progress done=1900 total=2876 downloaded=1900 present=0 failed=0
+INFO  download progress done=2000 total=2876 downloaded=2000 present=0 failed=0
+INFO  download progress done=2100 total=2876 downloaded=2100 present=0 failed=0
+INFO  download progress done=2200 total=2876 downloaded=2200 present=0 failed=0
+INFO  download progress done=2300 total=2876 downloaded=2300 present=0 failed=0
+INFO  download progress done=2400 total=2876 downloaded=2400 present=0 failed=0
+INFO  download progress done=2500 total=2876 downloaded=2500 present=0 failed=0
+INFO  download progress done=2600 total=2876 downloaded=2600 present=0 failed=0
+INFO  download progress done=2700 total=2876 downloaded=2700 present=0 failed=0
+INFO  download progress done=2800 total=2876 downloaded=2800 present=0 failed=0
+INFO  download progress done=2876 total=2876 downloaded=2876 present=0 failed=0
+INFO  run finished status=ok utc_end=2026-11-17T17:39:13Z manifest=/home/bibhu/Documents/DeepInteract/PPI-Predictor/model_data/structure_download.tsv counts={"downloaded": 2876, "local_pdb": 275}

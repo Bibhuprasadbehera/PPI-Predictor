@@ -1,0 +1,22 @@
+val n=1324 pos=575 AUROC 0.5292 AUPRC 0.4601
+test n=1325 pos=612 AUROC 0.5104 AUPRC 0.4786
+
+checkpoint /home/bibhu/Documents/DeepInteract/DEEPINTERACT/model_data/motif_linker.pt
+temperature_fit_on_val 1.70
+val raw n=1324 pos=575 AUROC 0.5292 AUPRC 0.4601 ECE 0.0452
+val calibrated n=1324 pos=575 AUROC 0.5293 AUPRC 0.4603 ECE 0.0002
+test raw n=1325 pos=612 AUROC 0.5104 AUPRC 0.4786 ECE 0.0727
+test calibrated n=1325 pos=612 AUROC 0.5103 AUPRC 0.4789 ECE 0.0278
+test calibrated AUROC 95% cluster interval 0.4900 0.5289 draws 1000
+test identical-sequence negatives n=170 mean_prob 0.4341
+test other negatives n=543 mean_prob 0.4341
+
+checkpoint /home/bibhu/Documents/DeepInteract/DEEPINTERACT/model_data/motif_linker_best.pt
+temperature_fit_on_val 0.50
+val raw n=1324 pos=575 AUROC 0.5036 AUPRC 0.4420 ECE 0.0605
+val calibrated n=1324 pos=575 AUROC 0.5036 AUPRC 0.4422 ECE 0.0554
+test raw n=1325 pos=612 AUROC 0.5031 AUPRC 0.4684 ECE 0.0329
+test calibrated n=1325 pos=612 AUROC 0.5031 AUPRC 0.4685 ECE 0.0278
+test calibrated AUROC 95% cluster interval 0.4822 0.5235 draws 1000
+test identical-sequence negatives n=170 mean_prob 0.4896
+test other negatives n=543 mean_prob 0.4896
