@@ -1,9 +1,9 @@
 unambiguous train 4835 pos_rate 0.3262 val 1045 pos_rate 0.3177 test 1113 pos_rate 0.2974 pos_weight 2.066
-epoch 1 train_loss 0.9445 val_auroc 0.5113 val_auprc 0.3200
-epoch 2 train_loss 0.8875 val_auroc 0.5530 val_auprc 0.3671
-epoch 3 train_loss 0.8641 val_auroc 0.5322 val_auprc 0.3459
-epoch 4 train_loss 0.8475 val_auroc 0.5467 val_auprc 0.3510
-stop best_val_auprc 0.3671
-test_unambiguous AUROC 0.5365 AUPRC 0.3448 n=1113
-test_full AUROC 0.5326 AUPRC 0.3695 n=1325
-test_ambiguous AUROC 0.5086 AUPRC 0.5103 n=212
+epoch 1 train_loss 0.9303 val_auroc 0.5429 val_auprc 0.3454
+epoch 2 train_loss 0.8809 val_auroc 0.5665 val_auprc 0.3681
+epoch 3 train_loss 0.8606 val_auroc 0.4929 val_auprc 0.3066
+epoch 4 train_loss 0.8416 val_auroc 0.5253 val_auprc 0.3317
+stop best_val_auprc 0.3681
+test_unambiguous AUROC 0.5770 AUPRC 0.3537 n=1113
+test_full AUROC 0.5699 AUPRC 0.3840 n=1325
+test_ambiguous AUROC 0.5170 AUPRC 0.5131 n=212
